@@ -1,27 +1,94 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.container 
+{
+    padding: 15px 20px 20px 20px;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.titulo 
+{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: yellow;
+    text-align: center;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+p, ul
+{
+    font-family: 'Agency FB';
+    font-size: 20px;
+    text-align: justify;
 }
 
-#container a {
-  text-decoration: none;
+li
+{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ion-thumbnail
+{
+    display: block;
+    margin: auto;
+    width: 25px;
+    height: 48px;
+}
+
+.borde
+{
+    border: yellow 1.5px solid;
+    padding: 20px;
+}
+
+.slide-full {
+    height: 100% !important;
+}
+
+ion-card {
+    padding-top: 50px;
+    height: 200px;
+    width: 300px;
+}
+
+.slide-image {
+    width: 100px;
+    text-align: center;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    top: -50px;
+}
+
+ion-card-header {
+    position: relative;
+    top: -50px;
+}
+
+ion-card-content {
+    position: relative;
+    top: -50px;
+}
+
+.negocios_slides {
+    font-size: 20px;
+}
+
+ion-card-subtitle {
+    font-size: 27px;
+}
+
+.avatar {
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtitulo_lifestyle
+{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
 }

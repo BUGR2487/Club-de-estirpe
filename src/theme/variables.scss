@@ -4,12 +4,12 @@
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-color-primary: #3880ff;
-  --ion-color-primary-rgb: 56, 128, 255;
-  --ion-color-primary-contrast: #ffffff;
-  --ion-color-primary-contrast-rgb: 255, 255, 255;
-  --ion-color-primary-shade: #3171e0;
-  --ion-color-primary-tint: #4c8dff;
+  --ion-color-primary: #FFFF00;
+  --ion-color-primary-rgb: 255,255,0;
+  --ion-color-primary-contrast: #000000;
+  --ion-color-primary-contrast-rgb: 0,0,0;
+  --ion-color-primary-shade: #e0e000;
+  --ion-color-primary-tint: #ffff1a;
 
   /** secondary **/
   --ion-color-secondary: #3dc2ff;
@@ -74,6 +74,38 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /** Instagram **/
+  --ion-color-instagram: #e1306c;
+  --ion-color-instagram-rgb: 225,48,108;
+  --ion-color-instagram-contrast: #ffffff;
+  --ion-color-instagram-contrast-rgb: 255,255,255;
+  --ion-color-instagram-shade: #c62a5f;
+  --ion-color-instagram-tint: #e4457b;
+  
+  /** Facebook **/
+  --ion-color-facebook: #0f49f5;
+  --ion-color-facebook-rgb: 15,73,245;
+  --ion-color-facebook-contrast: #ffffff;
+  --ion-color-facebook-contrast-rgb: 255,255,255;
+  --ion-color-facebook-shade: #0d40d8;
+  --ion-color-facebook-tint: #275bf6;
+
+  /** White **/
+  --ion-color-white: #ffffff;
+  --ion-color-white-rgb: 255,255,255;
+  --ion-color-white-contrast: #000000;
+  --ion-color-white-contrast-rgb: 0,0,0;
+  --ion-color-white-shade: #e0e0e0;
+  --ion-color-white-tint: #ffffff;
+
+  /** Web **/
+  --ion-color-web: #2d72d9;
+  --ion-color-web-rgb: 45,114,217;
+  --ion-color-web-contrast: #ffffff;
+  --ion-color-web-contrast-rgb: 255,255,255;
+  --ion-color-web-shade: #2864bf;
+  --ion-color-web-tint: #4280dd;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -229,4 +261,40 @@
 
     --ion-card-background: #1e1e1e;
   }
+}
+
+.ion-color-instagram {
+  --ion-color-base: var(--ion-color-instagram);
+  --ion-color-base-rgb: var(--ion-color-instagram-rgb);
+  --ion-color-contrast: var(--ion-color-instagram-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-instagram-contrast-rgb);
+  --ion-color-shade: var(--ion-color-instagram-shade);
+  --ion-color-tint: var(--ion-color-instagram-tint);
+}
+
+.ion-color-facebook {
+  --ion-color-base: var(--ion-color-facebook) !important;
+  --ion-color-base-rgb: var(--ion-color-facebook-rgb) !important;
+  --ion-color-contrast: var(--ion-color-facebook-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-facebook-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-facebook-shade) !important;
+  --ion-color-tint: var(--ion-color-facebook-tint) !important;
+}
+
+.ion-color-white {
+  --ion-color-base: var(--ion-color-white);
+  --ion-color-base-rgb: var(--ion-color-white-rgb);
+  --ion-color-contrast: var(--ion-color-white-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-white-contrast-rgb);
+  --ion-color-shade: var(--ion-color-white-shade);
+  --ion-color-tint: var(--ion-color-white-tint);
+}
+
+.ion-color-web {
+  --ion-color-base: var(--ion-color-web);
+  --ion-color-base-rgb: var(--ion-color-web-rgb);
+  --ion-color-contrast: var(--ion-color-web-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-web-contrast-rgb);
+  --ion-color-shade: var(--ion-color-web-shade);
+  --ion-color-tint: var(--ion-color-web-tint);
 }
