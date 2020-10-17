@@ -1,0 +1,70 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-menu-button menu="first" color="gris"></ion-menu-button>
+    </ion-buttons>
+
+    <app-logo slot="end" redirectTo="/main"></app-logo>
+
+    <ion-title>CLUB DE ESTIRPE</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content  color="moradoChicle">
+  <div class="container">
+    <div class="negocios">
+      <div class="titulo">
+        <strong>Negocios</strong>
+      </div>
+
+      <p>En club de estirpe buscamos incrementar el volumen de ventas de nuestra red de empresas en conjunto. Aquí podrás encontrar herramientas y beneficios importantes para incrementar las ventas de tu negocio.</p>
+      <ion-slides pager="ios" class="slide-full" [options]="slideOpt">
+        <ion-slide *ngFor="let slide of slides_negocios">
+          <ion-card mode="ios">
+            <img [src]="slide.img" class="slide-image">
+            <ion-card-header>
+              <ion-card-subtitle class="negocios_slides">
+                {{ slide.titulo }}
+              </ion-card-subtitle>
+            </ion-card-header>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+
+      <div class="subtitulo">
+        <strong>Red de empresas</strong>
+      </div>
+
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-button color="primary"><div class="color">Salud <ion-icon name="bandage-outline" slot="end"></ion-icon></div></ion-button>
+          </ion-col>
+          <ion-col>
+            <ion-button color="secondary"><div class="color">Belleza <ion-icon name="flower-outline" slot="end"></ion-icon></div></ion-button>
+          </ion-col>
+          <ion-col>
+            <ion-button color="tertiary">Deportes <ion-icon name="american-football-outline" slot="end"></ion-icon></ion-button>
+          </ion-col>
+          <ion-col>
+            <ion-button color="success"><div class="color">Moda <ion-icon name="glasses-outline" slot="end"></ion-icon></div></ion-button>
+          </ion-col>
+          <ion-col>
+            <ion-button color="light"><div class="color">Marketing <ion-icon name="megaphone-outline" slot="end"></ion-icon></div></ion-button>
+          </ion-col>
+          <ion-col>
+            <ion-button color="danger"><div class="color">Alimentos <ion-icon name="pizza-outline" slot="end"></ion-icon></div></ion-button>
+          </ion-col>
+          <ion-col>
+            <ion-button color="dark">Oficio <ion-icon name="construct-outline" slot="end"></ion-icon></ion-button>
+          </ion-col>
+          <ion-col>
+            <ion-button color="medium"><div class="color">Escuela <ion-icon name="pencil-outline" slot="end"></ion-icon></div></ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+    </div>
+  </div>
+</ion-content>

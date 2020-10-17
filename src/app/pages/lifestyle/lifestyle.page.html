@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-menu-button menu="first" color="gris"></ion-menu-button>
+    </ion-buttons>
+
+    <app-logo slot="end" redirectTo="/main"></app-logo>
+
+    <ion-title>CLUB DE ESTIRPE</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content  color="verdeChicle">
+  <div class="container">
+    <div class="lifestyle">
+      <div class="titulo">
+        <strong>Lifestyle</strong>
+      </div>
+      
+      <strong class="subtitulo_lifestyle">Eventos y celebraciones del club</strong>
+      <ion-slides pager="ios" class="slide-full" [options]="slideOpt">
+        <ion-slide *ngFor="let slide of slides_lifestyle_eventos">
+          <ion-card mode="ios">
+            <img [src]="slide.img" class="slide-image">
+            <ion-card-header>
+              <ion-card-subtitle>
+                {{ slide.titulo }}
+              </ion-card-subtitle>
+            </ion-card-header>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+
+      <strong class="subtitulo_lifestyle">Premios por rendimiento dentro del club</strong>
+      <ion-slides pager="ios" class="slide-full" [options]="slideOpt">
+        <ion-slide *ngFor="let slide of slides_lifestyle_premios">
+          <ion-card mode="ios">
+            <img [src]="slide.img" class="slide-image">
+            <ion-card-header>
+              <ion-card-subtitle>
+                {{ slide.titulo }}
+              </ion-card-subtitle>
+            </ion-card-header>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+
+      <strong class="subtitulo_lifestyle">Acceso preferencial a sitios de esparcimiento</strong>
+      <ion-slides pager="ios" class="slide-full" [options]="slideOpt">
+        <ion-slide *ngFor="let slide of slides_lifestyle_preferencias">
+          <ion-card mode="ios">
+            <img [src]="slide.img" class="slide-image">
+            <ion-card-header>
+              <ion-card-subtitle>
+                {{ slide.titulo }}
+              </ion-card-subtitle>
+            </ion-card-header>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+    </div>
+  </div>
+</ion-content>

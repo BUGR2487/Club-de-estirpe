@@ -25,6 +25,32 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
+.container {
+    padding: 15px 20px 20px 20px;
+}
+
+p {
+    font-family: 'Agency FB';
+    font-size: 20px;
+    text-align: justify;
+}
+
+.borde {
+    border: yellow 1.5px solid;
+    padding: 20px;
+}
+
+.negocios_slides {
+    font-size: 1px;
+}
+
+.subtitulo_lifestyle {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+}
+
 @font-face {
     font-family: 'Bebas Neue';
     src: url('assets/fonts/Bebas_Neue.woff2') format('woff2');
@@ -32,4 +58,11 @@
 
 .titulo {
     font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: yellow;
+    text-align: center;
+    padding: 7px;
+    color: #262626;
+    border-radius: 10px;
 }

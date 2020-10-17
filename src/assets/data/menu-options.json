@@ -1,0 +1,74 @@
+[
+    {
+        "icon": "earth-outline",
+        "name": "Club empresarial",
+        "redirectTo": "/club-empresarial",
+        "color": "amarilloChicle"
+    },
+    {
+        "icon": "trending-up-outline",
+        "name": "Inversiones",
+        "redirectTo": "/inversiones",
+        "color": "rojoChicle"
+    },
+    {
+        "icon": "bar-chart-outline",
+        "name": "Negocios",
+        "redirectTo": "/negocios",
+        "color": "moradoChicle"
+    },
+    {
+        "icon": "rocket-outline",
+        "name": "Emprendimiento",
+        "redirectTo": "/emprendimiento",
+        "color": "rosaChicle"
+    },
+    {
+        "icon": "speedometer-outline",
+        "name": "Propulsor de negocios",
+        "redirectTo": "/propulsor-negocios",
+        "color": "rojoChicle"
+    },
+    {
+        "icon": "ribbon-outline",
+        "name": "Capacitación",
+        "redirectTo": "/capacitacion",
+        "color": "azulChicle"
+    },
+    {
+        "icon": "trail-sign-outline",
+        "name": "Networking",
+        "redirectTo": "/networking",
+        "color": "amarilloChicle"
+    },
+    {
+        "icon": "people-circle-outline",
+        "name": "Coworking",
+        "redirectTo": "/coworking",
+        "color": "moradoChicle"
+    },
+    {
+        "icon": "leaf-outline",
+        "name": "Lifestyle",
+        "redirectTo": "/lifestyle",
+        "color": "verdeChicle"
+    },
+    {
+        "icon": "business-outline",
+        "name": "Nosotros",
+        "redirectTo": "/nosotros",
+        "color": "rosaChicle"
+    },
+    {
+        "icon": "people-outline",
+        "name": "Responsabilidad Social",
+        "redirectTo": "/necesidades-sociales",
+        "color": "azulChicle"
+    },
+    {
+        "icon": "help-outline",
+        "name": "¿Qué es club de estirpe?",
+        "redirectTo": "/que-es-club-estirpe",
+        "color": "verdeChicle"
+    }
+]

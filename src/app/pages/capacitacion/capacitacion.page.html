@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-menu-button menu="first" color="gris"></ion-menu-button>
+    </ion-buttons>
+
+    <app-logo slot="end" redirectTo="/main"></app-logo>
+
+    <ion-title>CLUB DE ESTIRPE</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="azulChicle">
+  <div class="container">
+    <div class="capacitacion">
+      <div class="titulo">
+        <strong>Capacitación</strong>
+      </div>
+
+      <p>En club de estirpe tenemos talleres diseñados por expertos para ayudarte a optimizar las diferentes areas de tu negocio.</p>
+
+      <ion-slides pager="ios" class="slide-full" [options]="slideOpt">
+        <ion-slide *ngFor="let slide of slides_capacitacion">
+          <ion-card mode="ios">
+            <img [src]="slide.img" class="slide-image">
+            <ion-card-header>
+              <ion-card-subtitle>
+                {{ slide.titulo }}
+              </ion-card-subtitle>
+            </ion-card-header>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+
+      <ion-slides pager="ios" class="slide-full" [options]="slideOpt">
+        <ion-slide *ngFor="let slide of slides_capacitacion_textos">
+          <ion-card mode="ios" class="cards_textos">
+            <img [src]="slide.img" class="slide-image">
+            <ion-card-header>
+              <ion-card-subtitle class="cards_subtitulos">
+                {{ slide.titulo }}
+              </ion-card-subtitle>
+            </ion-card-header>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+
+    </div>
+  </div>
+</ion-content>

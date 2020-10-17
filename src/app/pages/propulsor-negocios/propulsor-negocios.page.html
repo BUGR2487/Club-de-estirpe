@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-menu-button menu="first" color="gris"></ion-menu-button>
+    </ion-buttons>
+
+    <app-logo slot="end" redirectTo="/main"></app-logo>
+
+    <ion-title>CLUB DE ESTIRPE</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content  color="rojoChicle">
+  <div class="container">
+    <div class="propulsor_de_negocios">
+      <div class="titulo">
+        <strong>Propulsor de negocios</strong>
+      </div>
+
+      <p>¿Tienes un negocio existente?</p>
+
+      <ion-slides pager="ios" class="slide-full" [options]="slideOpt">
+        <ion-slide *ngFor="let slide of slides_propulsor_negocios">
+          <ion-card mode="ios">
+            <img [src]="slide.img" class="slide-image">
+            <ion-card-header>
+              <ion-card-subtitle class="negocios_slides">
+                {{ slide.titulo }}
+              </ion-card-subtitle>
+            </ion-card-header>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+
+    </div>
+  </div>
+</ion-content>

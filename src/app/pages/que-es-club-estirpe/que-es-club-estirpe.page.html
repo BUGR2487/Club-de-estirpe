@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-menu-button menu="first" color="gris"></ion-menu-button>
+    </ion-buttons>
+
+    <app-logo slot="end" redirectTo="/main"></app-logo>
+
+    <ion-title>CLUB DE ESTIRPE</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content  color="verdeChicle">
+  <div class="container">
+    <div class="que_es">
+      <div class="titulo">
+        <strong>¿Qué es club de estirpe?</strong>
+      </div>
+      
+      <p>¿Qué es club de estirpe?</p>
+      <p>Club de estirpe es una plataforma de desarrollo de emprendedores que otorga financiamiento y soporte a emprendedores y Pymes.</p>
+
+      <p>¿Qué puedo hacer en club de estirpe?</p>
+
+      <ion-slides pager="ios" class="slide-full" [options]="slideOpt">
+        <ion-slide *ngFor="let slide of slides_textos">
+          <ion-card mode="ios" class="tamanio_card">
+            <img [src]="slide.img" class="slide-image">
+            <ion-card-header>
+              <ion-card-subtitle class="tamanio_texto">
+                {{ slide.titulo }}
+              </ion-card-subtitle>
+            </ion-card-header>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+
+      <ion-slides pager="ios" class="slide-full" [options]="slideOpt">
+        <ion-slide *ngFor="let slide of slides_que_es">
+          <ion-card mode="ios" [routerLink]="slide.redirectTo">
+            <img [src]="slide.img" class="slide-image">
+            <ion-card-header>
+              <ion-card-subtitle>
+                {{ slide.titulo }}
+              </ion-card-subtitle>
+            </ion-card-header>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+    </div>
+  </div>
+</ion-content>

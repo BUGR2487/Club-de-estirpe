@@ -3,12 +3,60 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
+    path: 'main',
+    loadChildren: () => import('./pages/main/main.module').then( m => m.MainPageModule)
+  },
+  {
+    path: 'nosotros',
+    loadChildren: () => import('./pages/nosotros/nosotros.module').then( m => m.NosotrosPageModule)
+  },
+  {
+    path: 'necesidades-sociales',
+    loadChildren: () => import('./pages/necesidades-sociales/necesidades-sociales.module').then( m => m.NecesidadesSocialesPageModule)
+  },
+  {
+    path: 'que-es-club-estirpe',
+    loadChildren: () => import('./pages/que-es-club-estirpe/que-es-club-estirpe.module').then( m => m.QueEsClubEstirpePageModule)
+  },
+  {
+    path: 'networking',
+    loadChildren: () => import('./pages/networking/networking.module').then( m => m.NetworkingPageModule)
+  },
+  {
+    path: 'capacitacion',
+    loadChildren: () => import('./pages/capacitacion/capacitacion.module').then( m => m.CapacitacionPageModule)
+  },
+  {
+    path: 'lifestyle',
+    loadChildren: () => import('./pages/lifestyle/lifestyle.module').then( m => m.LifestylePageModule)
+  },
+  {
+    path: 'negocios',
+    loadChildren: () => import('./pages/negocios/negocios.module').then( m => m.NegociosPageModule)
+  },
+  {
+    path: 'emprendimiento',
+    loadChildren: () => import('./pages/emprendimiento/emprendimiento.module').then( m => m.EmprendimientoPageModule)
+  },
+  {
+    path: 'inversiones',
+    loadChildren: () => import('./pages/inversiones/inversiones.module').then( m => m.InversionesPageModule)
+  },
+  {
+    path: 'propulsor-negocios',
+    loadChildren: () => import('./pages/propulsor-negocios/propulsor-negocios.module').then( m => m.PropulsorNegociosPageModule)
+  },
+  {
+    path: 'club-empresarial',
+    loadChildren: () => import('./pages/club-empresarial/club-empresarial.module').then( m => m.ClubEmpresarialPageModule)
+  },
+  {
+    path: 'coworking',
+    loadChildren: () => import('./pages/coworking/coworking.module').then( m => m.CoworkingPageModule)
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'main',
     pathMatch: 'full'
   },
 ];

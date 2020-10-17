@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-menu-button menu="first" color="gris"></ion-menu-button>
+    </ion-buttons>
+
+    <ion-title>CLUB DE ESTIRPE</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-fab vertical="top" horizontal="end" slot="fixed">
+    <ion-fab-button color="white">
+      <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+    </ion-fab-button>
+
+    <ion-fab-list side="left">
+      <ion-fab-button color="facebook">
+        <a href="https://www.facebook.com/ClubdeEstirpeOficial/"><ion-icon name="logo-facebook" color="white"></ion-icon></a>
+      </ion-fab-button>
+      <ion-fab-button color="instagram">
+        <a href="https://www.instagram.com/clubdeestirpe/?hl=es-la"><ion-icon name="logo-instagram" color="white"></ion-icon></a>
+      </ion-fab-button>
+      <ion-fab-button color="youtube">
+        <a href="https://www.youtube.com/channel/UC5K-qNevPcdIfsObuV6j--w"><ion-icon name="logo-youtube" color="white"></ion-icon></a>
+      </ion-fab-button>
+      <ion-fab-button color="web">
+        <a href="https://www.imsoft.com.mx/"><ion-icon name="desktop-outline" color="white"></ion-icon></a>
+      </ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+
+  <div class="container">
+    <ion-img src='assets/img/Logo_Club_Estirpe.png'></ion-img>
+  </div>
+  
+  <ion-button *ngFor="let c of componentes | async" expand="block" [routerLink]="c.redirectTo" [color]="c.color" detail>
+      <ion-icon [name]="c.icon" slot="start" color="gris"></ion-icon>
+      {{ c.name }}
+  </ion-button>
+
+</ion-content>
