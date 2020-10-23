@@ -5,10 +5,26 @@
     border-width: 2px;
 }
 
+.color_texto {
+    color: #262626;
+}
 
 ion-img {
     width: 100px;
     height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.separacion {
+    margin-top: 10px;
+}
+
+ion-button {
+    font-family: 'Tw Cen MT';
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    width: 95%;
     display: block;
     margin: auto;
 }

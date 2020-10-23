@@ -56,19 +56,33 @@ ion-card-content {
     margin-right: auto;
 }
 
-.subtitulo {
+.titulos {
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
     font-weight: bold;
     background-color: #3B3838;
     text-align: center;
     padding: 7px;
-    color: yellow;
+    color: white;
     border-radius: 10px;
     margin-top: 10px;
+    letter-spacing: 0.5px;
 }
 
 ion-slides {
     --bullet-background: blue;
     --bullet-background-active: yellow;
+}
+
+.subtitulos {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #00B0F0;
+    text-align: center;
+    padding: 7px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
 }

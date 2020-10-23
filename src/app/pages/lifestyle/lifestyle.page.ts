@@ -9,17 +9,17 @@ export class LifestylePage implements OnInit {
 
   slides_lifestyle_eventos: { img: string, titulo: string }[] = [
     {
+      img: '/assets/slides-images/cumpleanos.svg',
+      titulo: 'Cumpleaños'
+    },
+    {
       img: '/assets/slides-images/aniversarios.svg',
-      titulo: 'Anivesarios'
+      titulo: 'Aniversarios'
     },
     {
       img: '/assets/slides-images/posadas.svg',
       titulo: 'Posadas'
-    },
-    {
-      img: '/assets/slides-images/cumpleanos.svg',
-      titulo: 'Cumpleaños'
-    }
+    }    
   ];
 
   slides_lifestyle_premios: { img: string, titulo: string }[] = [

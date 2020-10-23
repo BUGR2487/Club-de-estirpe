@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-menu-button menu="first" color="gris"></ion-menu-button>
+    </ion-buttons>
+
+    <app-logo slot="end" redirectTo="/main"></app-logo>
+
+    <ion-title>CLUB DE ESTIRPE</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="colorFormularioContacto">
+
+  <div class="container">
+    <div class="formulario_contacto">
+      <div class="titulo">
+        <strong>¿Tienes dudas?</strong>
+      </div>
+
+      <form #formulario="ngForm">
+        <ion-item class="Inputs" color="colorFormularioContacto">
+            <ion-label position="floating">Nombre Completo</ion-label>
+            <ion-input type="text" name="TxtNombre" [(ngModel)]="usuario.nombre" required> </ion-input>
+        </ion-item>
+
+        <ion-item class="Inputs" color="colorFormularioContacto">
+            <ion-label position="floating">Telefóno</ion-label>
+            <ion-input type="tel" name="TxtTelefono" [(ngModel)]="usuario.telefono" required> </ion-input>
+        </ion-item>
+
+        <ion-item class="Inputs" color="colorFormularioContacto">
+            <ion-label position="floating">Correo Electrónico</ion-label>
+            <ion-input type="email" name="TxtCorreoElectronico" [(ngModel)]="usuario.email" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" required> </ion-input>
+        </ion-item>
+
+        <ion-item class="Inputs" color="colorFormularioContacto">
+            <ion-label position="floating">Pregunta</ion-label>
+            <ion-textarea type="text" name="TxtPregunta" [(ngModel)]="usuario.pregunta" required> </ion-textarea>
+        </ion-item>
+
+        <ion-button class="boton" expand="block" fill="solid" color="primary" routerLink="/main" (click)="sendEmail()">
+          <ion-icon name="send-outline" slot="start"></ion-icon> Mandar pregunta
+        </ion-button>
+      </form>
+
+    </div>
+    <app-back-button></app-back-button>
+  </div>
+
+</ion-content>

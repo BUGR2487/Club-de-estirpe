@@ -14,7 +14,7 @@ export class NecesidadesSocialesPage implements OnInit {
     },
     {
       img: '/assets/slides-images/responsabilidad_crecimiento.svg',
-      titulo: 'Falta de bases solidad para el desarrollo de emprendedores y PyMES en cuestión financiera y de contexto empresarial.'
+      titulo: 'Falta de bases sólidas para el desarrollo de emprendedores y PyMES en cuestión financiera y de contexto empresarial.'
     }
   ];
 

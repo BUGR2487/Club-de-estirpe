@@ -4,15 +4,18 @@ import { IonicModule } from '@ionic/angular';
 
 import { BackButtonComponent } from './back-button/back-button.component';
 import { LogoComponent } from './logo/logo.component';
+import { ContactanosComponent } from './contactanos/contactanos.component';
 
 @NgModule({
   declarations: [
     BackButtonComponent,
-    LogoComponent
+    LogoComponent,
+    ContactanosComponent
   ],
   exports: [
     BackButtonComponent,
-    LogoComponent
+    LogoComponent,
+    ContactanosComponent
   ],
   imports: [
     CommonModule,

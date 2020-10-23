@@ -123,53 +123,133 @@
   --ion-color-youtube-shade: #e00000;
   --ion-color-youtube-tint: #ff1a1a;
 
-  /** Morado Chicle **/
-  --ion-color-moradoChicle: #8D27AB;
-  --ion-color-moradoChicle-rgb: 141,39,171;
-  --ion-color-moradoChicle-contrast: #ffffff;
-  --ion-color-moradoChicle-contrast-rgb: 255,255,255;
-  --ion-color-moradoChicle-shade: #7c2296;
-  --ion-color-moradoChicle-tint: #983db3;
+  /** Color Lifestyle **/
+  --ion-color-colorLifestyle: #FFC000;
+  --ion-color-colorLifestyle-rgb: 255,192,0;
+  --ion-color-colorLifestyle-contrast: #000000;
+  --ion-color-colorLifestyle-contrast-rgb: 0,0,0;
+  --ion-color-colorLifestyle-shade: #e0a900;
+  --ion-color-colorLifestyle-tint: #ffc61a;
 
-  /** Amarillo Chicle **/
-  --ion-color-amarilloChicle: #FFEC4C;
-  --ion-color-amarilloChicle-rgb: 255,236,76;
-  --ion-color-amarilloChicle-contrast: #000000;
-  --ion-color-amarilloChicle-contrast-rgb: 0,0,0;
-  --ion-color-amarilloChicle-shade: #e0d043;
-  --ion-color-amarilloChicle-tint: #ffee5e;
+  /** Color Capacitacion **/
+  --ion-color-colorCapacitacion: #FCD904;
+  --ion-color-colorCapacitacion-rgb: 252,217,4;
+  --ion-color-colorCapacitacion-contrast: #000000;
+  --ion-color-colorCapacitacion-contrast-rgb: 0,0,0;
+  --ion-color-colorCapacitacion-shade: #debf04;
+  --ion-color-colorCapacitacion-tint: #fcdd1d;
 
-  /** Rosa Chicle **/
-  --ion-color-rosaChicle: #FE5BA4;
-  --ion-color-rosaChicle-rgb: 254,91,164;
-  --ion-color-rosaChicle-contrast: #000000;
-  --ion-color-rosaChicle-contrast-rgb: 0,0,0;
-  --ion-color-rosaChicle-shade: #e05090;
-  --ion-color-rosaChicle-tint: #fe6bad;
+  /** Color Negocios **/
+  --ion-color-colorNegocios: #FFFF00;
+  --ion-color-colorNegocios-rgb: 255,255,0;
+  --ion-color-colorNegocios-contrast: #000000;
+  --ion-color-colorNegocios-contrast-rgb: 0,0,0;
+  --ion-color-colorNegocios-shade: #e0e000;
+  --ion-color-colorNegocios-tint: #ffff1a;
 
-  /** Rojo Chicle **/
-  --ion-color-rojoChicle: #FF4039;
-  --ion-color-rojoChicle-rgb: 255,64,57;
-  --ion-color-rojoChicle-contrast: #ffffff;
-  --ion-color-rojoChicle-contrast-rgb: 255,255,255;
-  --ion-color-rojoChicle-shade: #e03832;
-  --ion-color-rojoChicle-tint: #ff534d;
+  /** Color Inversiones **/
+  --ion-color-colorInversiones: #0ADB51;
+  --ion-color-colorInversiones-rgb: 10,219,81;
+  --ion-color-colorInversiones-contrast: #000000;
+  --ion-color-colorInversiones-contrast-rgb: 0,0,0;
+  --ion-color-colorInversiones-shade: #09c147;
+  --ion-color-colorInversiones-tint: #23df62;
 
-  /** Verde Chicle **/
-  --ion-color-verdeChicle: #2FDE76;
-  --ion-color-verdeChicle-rgb: 47,222,118;
-  --ion-color-verdeChicle-contrast: #000000;
-  --ion-color-verdeChicle-contrast-rgb: 0,0,0;
-  --ion-color-verdeChicle-shade: #29c368;
-  --ion-color-verdeChicle-tint: #44e184;
+  /** Color Coworking **/
+  --ion-color-colorCoworking: #0096FF;
+  --ion-color-colorCoworking-rgb: 0,150,255;
+  --ion-color-colorCoworking-contrast: #ffffff;
+  --ion-color-colorCoworking-contrast-rgb: 255,255,255;
+  --ion-color-colorCoworking-shade: #0084e0;
+  --ion-color-colorCoworking-tint: #1aa1ff;
 
-  /** Azul Chicle **/
-  --ion-color-azulChicle: #2EC4FF;
-  --ion-color-azulChicle-rgb: 46,196,255;
-  --ion-color-azulChicle-contrast: #000000;
-  --ion-color-azulChicle-contrast-rgb: 0,0,0;
-  --ion-color-azulChicle-shade: #28ace0;
-  --ion-color-azulChicle-tint: #43caff;
+  /** Color Emprendimiento **/
+  --ion-color-colorEmprendimiento: #00B0F0;
+  --ion-color-colorEmprendimiento-rgb: 0,176,240;
+  --ion-color-colorEmprendimiento-contrast: #000000;
+  --ion-color-colorEmprendimiento-contrast-rgb: 0,0,0;
+  --ion-color-colorEmprendimiento-shade: #009bd3;
+  --ion-color-colorEmprendimiento-tint: #1ab8f2;
+
+  /** Color Nosotros **/
+  --ion-color-colorNosotros: #00FDFF;
+  --ion-color-colorNosotros-rgb: 0,253,255;
+  --ion-color-colorNosotros-contrast: #000000;
+  --ion-color-colorNosotros-contrast-rgb: 0,0,0;
+  --ion-color-colorNosotros-shade: #00dfe0;
+  --ion-color-colorNosotros-tint: #1afdff;
+
+  /** Color Que es club de estirpe **/
+  --ion-color-colorQueEsEstirpe: #F26200;
+  --ion-color-colorQueEsEstirpe-rgb: 242,98,0;
+  --ion-color-colorQueEsEstirpe-contrast: #000000;
+  --ion-color-colorQueEsEstirpe-contrast-rgb: 0,0,0;
+  --ion-color-colorQueEsEstirpe-shade: #d55600;
+  --ion-color-colorQueEsEstirpe-tint: #f3721a;
+
+  /** Color Propulsor de negocios **/
+  --ion-color-colorPropulsorDeNegocios: #FF9300;
+  --ion-color-colorPropulsorDeNegocios-rgb: 255,147,0;
+  --ion-color-colorPropulsorDeNegocios-contrast: #000000;
+  --ion-color-colorPropulsorDeNegocios-contrast-rgb: 0,0,0;
+  --ion-color-colorPropulsorDeNegocios-shade: #e08100;
+  --ion-color-colorPropulsorDeNegocios-tint: #ff9e1a;
+
+  /** Color Responsabilidad social **/
+  --ion-color-colorResponsabilidadSocial: #FF85FF;
+  --ion-color-colorResponsabilidadSocial-rgb: 255,133,255;
+  --ion-color-colorResponsabilidadSocial-contrast: #000000;
+  --ion-color-colorResponsabilidadSocial-contrast-rgb: 0,0,0;
+  --ion-color-colorResponsabilidadSocial-shade: #e075e0;
+  --ion-color-colorResponsabilidadSocial-tint: #ff91ff;
+
+  /** Club empresarial **/ 
+  --ion-color-colorClubEmpresarial: #767171;
+  --ion-color-colorClubEmpresarial-rgb: 118,113,113;
+  --ion-color-colorClubEmpresarial-contrast: #ffffff;
+  --ion-color-colorClubEmpresarial-contrast-rgb: 255,255,255;
+  --ion-color-colorClubEmpresarial-shade: #686363;
+  --ion-color-colorClubEmpresarial-tint: #847f7f;
+
+  /** Networking **/ 
+  --ion-color-colorNetworking: #3B3838;
+  --ion-color-colorNetworking-rgb: 59,56,56;
+  --ion-color-colorNetworking-contrast: #ffffff;
+  --ion-color-colorNetworking-contrast-rgb: 255,255,255;
+  --ion-color-colorNetworking-shade: #343131;
+  --ion-color-colorNetworking-tint: #4f4c4c;
+
+  /** FAQ **/
+  --ion-color-colorFAQ: #767171;
+  --ion-color-colorFAQ-rgb: 118,113,113;
+  --ion-color-colorFAQ-contrast: #ffffff;
+  --ion-color-colorFAQ-contrast-rgb: 255,255,255;
+  --ion-color-colorFAQ-shade: #686363;
+  --ion-color-colorFAQ-tint: #847f7f;
+
+  /** Información contacto **/
+  --ion-color-colorInformacionContacto: #E7E6E6;
+  --ion-color-colorInformacionContacto-rgb: 231,230,230;
+  --ion-color-colorInformacionContacto-contrast: #000000;
+  --ion-color-colorInformacionContacto-contrast-rgb: 0,0,0;
+  --ion-color-colorInformacionContacto-shade: #cbcaca;
+  --ion-color-colorInformacionContacto-tint: #e9e9e9;
+
+  /** Formulario de contacto **/
+  --ion-color-colorFormularioContacto: #D6D6D6;
+  --ion-color-colorFormularioContacto-rgb: 214,214,214;
+  --ion-color-colorFormularioContacto-contrast: #000000;
+  --ion-color-colorFormularioContacto-contrast-rgb: 0,0,0;
+  --ion-color-colorFormularioContacto-shade: #bcbcbc;
+  --ion-color-colorFormularioContacto-tint: #dadada;
+
+  /** Whatsapp **/
+  --ion-color-whatsapp: #25d366;
+  --ion-color-whatsapp-rgb: 37,211,102;
+  --ion-color-whatsapp-contrast: #000000;
+  --ion-color-whatsapp-contrast-rgb: 0,0,0;
+  --ion-color-whatsapp-shade: #21ba5a;
+  --ion-color-whatsapp-tint: #3bd775;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -381,57 +461,146 @@
   --ion-color-tint: var(--ion-color-youtube-tint);
 }
 
-.ion-color-moradoChicle {
-  --ion-color-base: var(--ion-color-moradoChicle);
-  --ion-color-base-rgb: var(--ion-color-moradoChicle-rgb);
-  --ion-color-contrast: var(--ion-color-moradoChicle-contrast);
-  --ion-color-contrast-rgb: var(--ion-color-moradoChicle-contrast-rgb);
-  --ion-color-shade: var(--ion-color-moradoChicle-shade);
-  --ion-color-tint: var(--ion-color-moradoChicle-tint);
+.ion-color-colorLifestyle {
+  --ion-color-base: var(--ion-color-colorLifestyle);
+  --ion-color-base-rgb: var(--ion-color-colorLifestyle-rgb);
+  --ion-color-contrast: var(--ion-color-colorLifestyle-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-colorLifestyle-contrast-rgb);
+  --ion-color-shade: var(--ion-color-colorLifestyle-shade);
+  --ion-color-tint: var(--ion-color-colorLifestyle-tint);
 }
 
-.ion-color-amarilloChicle {
-  --ion-color-base: var(--ion-color-amarilloChicle);
-  --ion-color-base-rgb: var(--ion-color-amarilloChicle-rgb);
-  --ion-color-contrast: var(--ion-color-amarilloChicle-contrast);
-  --ion-color-contrast-rgb: var(--ion-color-amarilloChicle-contrast-rgb);
-  --ion-color-shade: var(--ion-color-amarilloChicle-shade);
-  --ion-color-tint: var(--ion-color-amarilloChicle-tint);
+.ion-color-colorCapacitacion {
+  --ion-color-base: var(--ion-color-colorCapacitacion);
+  --ion-color-base-rgb: var(--ion-color-colorCapacitacion-rgb);
+  --ion-color-contrast: var(--ion-color-colorCapacitacion-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-colorCapacitacion-contrast-rgb);
+  --ion-color-shade: var(--ion-color-colorCapacitacion-shade);
+  --ion-color-tint: var(--ion-color-colorCapacitacion-tint);
 }
 
-.ion-color-rosaChicle {
-  --ion-color-base: var(--ion-color-rosaChicle);
-  --ion-color-base-rgb: var(--ion-color-rosaChicle-rgb);
-  --ion-color-contrast: var(--ion-color-rosaChicle-contrast);
-  --ion-color-contrast-rgb: var(--ion-color-rosaChicle-contrast-rgb);
-  --ion-color-shade: var(--ion-color-rosaChicle-shade);
-  --ion-color-tint: var(--ion-color-rosaChicle-tint);
+.ion-color-colorNegocios {
+  --ion-color-base: var(--ion-color-colorNegocios);
+  --ion-color-base-rgb: var(--ion-color-colorNegocios-rgb);
+  --ion-color-contrast: var(--ion-color-colorNegocios-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-colorNegocios-contrast-rgb);
+  --ion-color-shade: var(--ion-color-colorNegocios-shade);
+  --ion-color-tint: var(--ion-color-colorNegocios-tint);
 }
 
-.ion-color-rojoChicle {
-  --ion-color-base: var(--ion-color-rojoChicle);
-  --ion-color-base-rgb: var(--ion-color-rojoChicle-rgb);
-  --ion-color-contrast: var(--ion-color-rojoChicle-contrast);
-  --ion-color-contrast-rgb: var(--ion-color-rojoChicle-contrast-rgb);
-  --ion-color-shade: var(--ion-color-rojoChicle-shade);
-  --ion-color-tint: var(--ion-color-rojoChicle-tint);
+.ion-color-colorInversiones {
+  --ion-color-base: var(--ion-color-colorInversiones);
+  --ion-color-base-rgb: var(--ion-color-colorInversiones-rgb);
+  --ion-color-contrast: var(--ion-color-colorInversiones-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-colorInversiones-contrast-rgb);
+  --ion-color-shade: var(--ion-color-colorInversiones-shade);
+  --ion-color-tint: var(--ion-color-colorInversiones-tint);
 }
 
-.ion-color-verdeChicle {
-  --ion-color-base: var(--ion-color-verdeChicle);
-  --ion-color-base-rgb: var(--ion-color-verdeChicle-rgb);
-  --ion-color-contrast: var(--ion-color-verdeChicle-contrast);
-  --ion-color-contrast-rgb: var(--ion-color-verdeChicle-contrast-rgb);
-  --ion-color-shade: var(--ion-color-verdeChicle-shade);
-  --ion-color-tint: var(--ion-color-verdeChicle-tint);
+.ion-color-colorCoworking {
+  --ion-color-base: var(--ion-color-colorCoworking);
+  --ion-color-base-rgb: var(--ion-color-colorCoworking-rgb);
+  --ion-color-contrast: var(--ion-color-colorCoworking-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-colorCoworking-contrast-rgb);
+  --ion-color-shade: var(--ion-color-colorCoworking-shade);
+  --ion-color-tint: var(--ion-color-colorCoworking-tint);
 }
 
-.ion-color-azulChicle {
-  --ion-color-base: var(--ion-color-azulChicle);
-  --ion-color-base-rgb: var(--ion-color-azulChicle-rgb);
-  --ion-color-contrast: var(--ion-color-azulChicle-contrast);
-  --ion-color-contrast-rgb: var(--ion-color-azulChicle-contrast-rgb);
-  --ion-color-shade: var(--ion-color-azulChicle-shade);
-  --ion-color-tint: var(--ion-color-azulChicle-tint);
+.ion-color-colorEmprendimiento {
+  --ion-color-base: var(--ion-color-colorEmprendimiento);
+  --ion-color-base-rgb: var(--ion-color-colorEmprendimiento-rgb);
+  --ion-color-contrast: var(--ion-color-colorEmprendimiento-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-colorEmprendimiento-contrast-rgb);
+  --ion-color-shade: var(--ion-color-colorEmprendimiento-shade);
+  --ion-color-tint: var(--ion-color-colorEmprendimiento-tint);
 }
 
+.ion-color-colorNosotros {
+  --ion-color-base: var(--ion-color-colorNosotros);
+  --ion-color-base-rgb: var(--ion-color-colorNosotros-rgb);
+  --ion-color-contrast: var(--ion-color-colorNosotros-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-colorNosotros-contrast-rgb);
+  --ion-color-shade: var(--ion-color-colorNosotros-shade);
+  --ion-color-tint: var(--ion-color-colorNosotros-tint);
+}
+
+.ion-color-colorQueEsEstirpe {
+  --ion-color-base: var(--ion-color-colorQueEsEstirpe);
+  --ion-color-base-rgb: var(--ion-color-colorQueEsEstirpe-rgb);
+  --ion-color-contrast: var(--ion-color-colorQueEsEstirpe-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-colorQueEsEstirpe-contrast-rgb);
+  --ion-color-shade: var(--ion-color-colorQueEsEstirpe-shade);
+  --ion-color-tint: var(--ion-color-colorQueEsEstirpe-tint);
+}
+
+.ion-color-colorPropulsorDeNegocios {
+  --ion-color-base: var(--ion-color-colorPropulsorDeNegocios);
+  --ion-color-base-rgb: var(--ion-color-colorPropulsorDeNegocios-rgb);
+  --ion-color-contrast: var(--ion-color-colorPropulsorDeNegocios-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-colorPropulsorDeNegocios-contrast-rgb);
+  --ion-color-shade: var(--ion-color-colorPropulsorDeNegocios-shade);
+  --ion-color-tint: var(--ion-color-colorPropulsorDeNegocios-tint);
+}
+
+.ion-color-colorResponsabilidadSocial {
+  --ion-color-base: var(--ion-color-colorResponsabilidadSocial);
+  --ion-color-base-rgb: var(--ion-color-colorResponsabilidadSocial-rgb);
+  --ion-color-contrast: var(--ion-color-colorResponsabilidadSocial-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-colorResponsabilidadSocial-contrast-rgb);
+  --ion-color-shade: var(--ion-color-colorResponsabilidadSocial-shade);
+  --ion-color-tint: var(--ion-color-colorResponsabilidadSocial-tint);
+}
+
+.ion-color-colorClubEmpresarial {
+  --ion-color-base: var(--ion-color-colorClubEmpresarial);
+  --ion-color-base-rgb: var(--ion-color-colorClubEmpresarial-rgb);
+  --ion-color-contrast: var(--ion-color-colorClubEmpresarial-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-colorClubEmpresarial-contrast-rgb);
+  --ion-color-shade: var(--ion-color-colorClubEmpresarial-shade);
+  --ion-color-tint: var(--ion-color-colorClubEmpresarial-tint);
+}
+
+.ion-color-colorNetworking {
+  --ion-color-base: var(--ion-color-colorNetworking);
+  --ion-color-base-rgb: var(--ion-color-colorNetworking-rgb);
+  --ion-color-contrast: var(--ion-color-colorNetworking-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-colorNetworking-contrast-rgb);
+  --ion-color-shade: var(--ion-color-colorNetworking-shade);
+  --ion-color-tint: var(--ion-color-colorNetworking-tint);
+}
+
+.ion-color-colorFAQ {
+  --ion-color-base: var(--ion-color-colorFAQ);
+  --ion-color-base-rgb: var(--ion-color-colorFAQ-rgb);
+  --ion-color-contrast: var(--ion-color-colorFAQ-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-colorFAQ-contrast-rgb);
+  --ion-color-shade: var(--ion-color-colorFAQ-shade);
+  --ion-color-tint: var(--ion-color-colorFAQ-tint);
+}
+
+.ion-color-colorFormularioContacto {
+  --ion-color-base: var(--ion-color-colorFormularioContacto);
+  --ion-color-base-rgb: var(--ion-color-colorFormularioContacto-rgb);
+  --ion-color-contrast: var(--ion-color-colorFormularioContacto-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-colorFormularioContacto-contrast-rgb);
+  --ion-color-shade: var(--ion-color-colorFormularioContacto-shade);
+  --ion-color-tint: var(--ion-color-colorFormularioContacto-tint);
+}
+
+.ion-color-colorInformacionContacto {
+  --ion-color-base: var(--ion-color-colorInformacionContacto);
+  --ion-color-base-rgb: var(--ion-color-colorInformacionContacto-rgb);
+  --ion-color-contrast: var(--ion-color-colorInformacionContacto-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-colorInformacionContacto-contrast-rgb);
+  --ion-color-shade: var(--ion-color-colorInformacionContacto-shade);
+  --ion-color-tint: var(--ion-color-colorInformacionContacto-tint);
+}
+
+.ion-color-whatsapp {
+  --ion-color-base: var(--ion-color-whatsapp);
+  --ion-color-base-rgb: var(--ion-color-whatsapp-rgb);
+  --ion-color-contrast: var(--ion-color-whatsapp-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-whatsapp-contrast-rgb);
+  --ion-color-shade: var(--ion-color-whatsapp-shade);
+  --ion-color-tint: var(--ion-color-whatsapp-tint);
+}

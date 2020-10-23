@@ -55,6 +55,18 @@ const routes: Routes = [
     loadChildren: () => import('./pages/coworking/coworking.module').then( m => m.CoworkingPageModule)
   },
   {
+    path: 'faq',
+    loadChildren: () => import('./pages/faq/faq.module').then( m => m.FaqPageModule)
+  },
+  {
+    path: 'informacion-contacto',
+    loadChildren: () => import('./pages/informacion-contacto/informacion-contacto.module').then( m => m.InformacionContactoPageModule)
+  },
+  {
+    path: 'formulario-contacto',
+    loadChildren: () => import('./pages/formulario-contacto/formulario-contacto.module').then( m => m.FormularioContactoPageModule)
+  },
+  {
     path: '',
     redirectTo: 'main',
     pathMatch: 'full'

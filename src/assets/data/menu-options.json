@@ -3,72 +3,90 @@
         "icon": "earth-outline",
         "name": "Club empresarial",
         "redirectTo": "/club-empresarial",
-        "color": "amarilloChicle"
+        "color": "colorEmprendimiento"
     },
     {
         "icon": "trending-up-outline",
         "name": "Inversiones",
         "redirectTo": "/inversiones",
-        "color": "rojoChicle"
+        "color": "colorInversiones"
     },
     {
         "icon": "bar-chart-outline",
         "name": "Negocios",
         "redirectTo": "/negocios",
-        "color": "moradoChicle"
+        "color": "colorNegocios"
     },
     {
         "icon": "rocket-outline",
         "name": "Emprendimiento",
         "redirectTo": "/emprendimiento",
-        "color": "rosaChicle"
+        "color": "colorEmprendimiento"
     },
     {
         "icon": "speedometer-outline",
         "name": "Propulsor de negocios",
         "redirectTo": "/propulsor-negocios",
-        "color": "rojoChicle"
+        "color": "colorPropulsorDeNegocios"
     },
     {
         "icon": "ribbon-outline",
         "name": "Capacitación",
         "redirectTo": "/capacitacion",
-        "color": "azulChicle"
+        "color": "colorCapacitacion"
     },
     {
         "icon": "trail-sign-outline",
         "name": "Networking",
         "redirectTo": "/networking",
-        "color": "amarilloChicle"
+        "color": "colorNetworking"
     },
     {
         "icon": "people-circle-outline",
         "name": "Coworking",
         "redirectTo": "/coworking",
-        "color": "moradoChicle"
+        "color": "colorCoworking"
     },
     {
         "icon": "leaf-outline",
         "name": "Lifestyle",
         "redirectTo": "/lifestyle",
-        "color": "verdeChicle"
+        "color": "colorLifestyle"
     },
     {
         "icon": "business-outline",
         "name": "Nosotros",
         "redirectTo": "/nosotros",
-        "color": "rosaChicle"
+        "color": "colorNosotros"
     },
     {
         "icon": "people-outline",
         "name": "Responsabilidad Social",
         "redirectTo": "/necesidades-sociales",
-        "color": "azulChicle"
+        "color": "colorInversiones"
     },
     {
         "icon": "help-outline",
         "name": "¿Qué es club de estirpe?",
         "redirectTo": "/que-es-club-estirpe",
-        "color": "verdeChicle"
+        "color": "colorQueEsEstirpe"
+    },
+    {
+        "icon": "help-circle-outline",
+        "name": "FAQ",
+        "redirectTo": "/faq",
+        "color": "colorFAQ"
+    },
+    {
+        "icon": "happy-outline",
+        "name": "Contactanos",
+        "redirectTo": "/informacion-contacto",
+        "color": "colorInformacionContacto"
+    },
+    {
+        "icon": "mail-outline",
+        "name": "¿Tienes dudas?",
+        "redirectTo": "/formulario-contacto",
+        "color": "colorFormularioContacto"
     }
 ]

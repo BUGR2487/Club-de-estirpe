@@ -14,11 +14,11 @@ export class CoworkingPage implements OnInit {
     },
     {
       img: '/assets/slides-images/coworking_hablar.svg',
-      titulo: 'Colabora e interactúa con otros emprendedores como tu para enriquecer tu desarrollo.'
+      titulo: 'Colabora e interactúa con otros emprendedores como tú para enriquecer tu desarrollo.'
     },
     {
       img: '/assets/slides-images/coworking_cafeteria.svg',
-      titulo: 'Siempre tendrás cafe, internet y un espacio comodo para tus citas.'
+      titulo: 'Siempre tendrás café, internet y un espacio cómodo para tus citas.'
     },
     {
       img: '/assets/slides-images/coworking_mano_amiga.svg',

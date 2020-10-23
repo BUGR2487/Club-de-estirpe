@@ -10,15 +10,15 @@ export class EmprendimientoPage implements OnInit {
   slides_emprendimiento: { img: string, titulo: string }[] = [
     {
       img: '/assets/slides-images/emprendimiento_ayuda.svg',
-      titulo: 'Siempre tienen un equipo de profesionales para ayudarlos a cumplir los objetivos de su negocio.'
+      titulo: 'Siempre tienes un equipo de profesionales para ayudarte a cumplir los objetivos de tu negocio.'
     },
     {
       img: '/assets/slides-images/emprendimiento_ideas.svg',
-      titulo: 'En club de estirpe apoyamos a emprendedores a llevar acabo sus ideas de negocio con bases solidas.'
+      titulo: 'En club de estirpe apoyamos a emprendedores a llevar acabo sus ideas de negocio con bases sólidas.'
     },
     {
       img: '/assets/slides-images/emprendimiento_equipo.svg',
-      titulo: 'Los ayudamos a entender el contexto empresarial para reducir la curva de aprendizaje y darle mayores posibilidades de exito a su proyecto.'
+      titulo: 'Los ayudamos a entender el contexto empresarial para reducir la curva de aprendizaje y darles mayores posibilidades de exito a su proyecto.'
     },
     {
       img: '/assets/slides-images/emprendimiento_empresa.svg',

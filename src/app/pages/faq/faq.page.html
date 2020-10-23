@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-menu-button menu="first" color="gris"></ion-menu-button>
+    </ion-buttons>
+
+    <app-logo slot="end" redirectTo="/main"></app-logo>
+
+    <ion-title>CLUB DE ESTIRPE</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="colorFAQ">
+
+  <div class="container">
+    <div class="faq">
+      <div class="titulo">
+        <strong>FAQ</strong>
+      </div>
+
+      <ion-slides pager="ios" class="slide-full" [options]="slideOpt">
+        <ion-slide *ngFor="let slide of slides_faq">
+          <ion-card mode="ios">
+            <img [src]="slide.img" class="slide-image">
+            <ion-card-header>
+
+              <ion-card-subtitle>
+                {{ slide.pregunta }}
+              </ion-card-subtitle>
+
+              <ion-card-content>
+                {{ slide.respuesta }}
+              </ion-card-content>
+
+            </ion-card-header>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+
+    </div>
+    <app-back-button></app-back-button>
+    <app-contactanos></app-contactanos>
+  </div>
+
+</ion-content>

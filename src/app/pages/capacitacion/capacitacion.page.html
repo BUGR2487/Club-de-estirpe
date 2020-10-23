@@ -11,14 +11,14 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content color="azulChicle">
+<ion-content color="colorCapacitacion">
   <div class="container">
     <div class="capacitacion">
       <div class="titulo">
         <strong>Capacitación</strong>
       </div>
 
-      <p>En club de estirpe tenemos talleres diseñados por expertos para ayudarte a optimizar las diferentes areas de tu negocio.</p>
+      <p>En club de estirpe tenemos talleres diseñados por expertos para ayudarte a optimizar las diferentes áreas de tu negocio.</p>
 
       <ion-slides pager="ios" class="slide-full" [options]="slideOpt">
         <ion-slide *ngFor="let slide of slides_capacitacion">
@@ -47,5 +47,7 @@
       </ion-slides>
 
     </div>
+    <app-back-button></app-back-button>
+    <app-contactanos></app-contactanos>
   </div>
 </ion-content>

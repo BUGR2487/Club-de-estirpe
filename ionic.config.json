@@ -1,5 +1,8 @@
 {
   "name": "Club de Estirpe",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }

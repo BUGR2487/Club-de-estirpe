@@ -58,7 +58,7 @@ export class QueEsClubEstirpePage implements OnInit {
   slides_textos: { img: string, titulo: string }[] = [
     {
       img: '/assets/slides-images/que_es_proyecto.svg',
-      titulo: 'Si eres emprendedor y te gustaría llevar acabo tu proyecto o mejorarlo, en club de estirpe puedes ingresar tu proyecto para que la comunidad emprendedora te apoye a financiarlo a costo cero o a costos por debajo de los financiamientos tradicionales.'
+      titulo: 'Si eres emprendedor y te gustaría llevar a cabo tu proyecto o mejorarlo, en club de estirpe puedes ingresar tu proyecto para que la comunidad emprendedora te apoye a financiarlo a costo cero o a costos por debajo de los financiamientos tradicionales.'
     },
     {
       img: '/assets/slides-images/que_es_negocios.svg',
@@ -66,7 +66,7 @@ export class QueEsClubEstirpePage implements OnInit {
     },
     {
       img: '/assets/slides-images/que_es_ventas.svg',
-      titulo: 'Si eres una empresa establecida, puedes integrar tu negocio a la red de empresas de la plataforma y generar mayores ventas y aumentar la exposición de tu negocio, además de acceder a créditos con costos preferenciales.'
+      titulo: 'Si eres una empresa establecida, puedes integrar tu negocio a la red de empresas de la plataforma y generar mayores ventas y aumentar la exposición de tu negocio. Además de acceder a créditos con costos preferenciales.'
     }
   ];
 

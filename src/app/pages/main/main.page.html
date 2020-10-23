@@ -9,7 +9,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" color="primary">
 
   <ion-fab vertical="top" horizontal="end" slot="fixed">
     <ion-fab-button color="white" class="contorno">
@@ -26,8 +26,11 @@
       <ion-fab-button color="youtube">
         <a href="https://www.youtube.com/channel/UC5K-qNevPcdIfsObuV6j--w"><ion-icon name="logo-youtube" color="white"></ion-icon></a>
       </ion-fab-button>
+      <ion-fab-button color="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=3322549095&text=¡Hola!,%20me%20interesa%20saber%20más%20sobre%20la%20red%20de%20empresas."><ion-icon name="logo-whatsapp" color="white"></ion-icon></a>
+      </ion-fab-button>
       <ion-fab-button color="web">
-        <a href="https://www.imsoft.com.mx/"><ion-icon name="desktop-outline" color="white"></ion-icon></a>
+        <a href="https://estirpe.vercel.app/"><ion-icon name="desktop-outline" color="white"></ion-icon></a>
       </ion-fab-button>
     </ion-fab-list>
   </ion-fab>
@@ -36,9 +39,9 @@
     <ion-img src='assets/img/Logo_Club_Estirpe.png'></ion-img>
   </div>
   
-  <ion-button *ngFor="let c of componentes | async" expand="block" [routerLink]="c.redirectTo" [color]="c.color" detail>
-      <ion-icon [name]="c.icon" slot="start" color="gris"></ion-icon>
-      {{ c.name }}
+  <ion-button *ngFor="let c of componentes | async" expand="block" fill="solid" class="separacion" color="white" [routerLink]="c.redirectTo" detail>
+      <ion-icon [name]="c.icon" slot="start" [color]="c.color"></ion-icon>
+      <div class="color_texto">{{ c.name }}</div>
   </ion-button>
 
 </ion-content>
