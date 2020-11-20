@@ -21,7 +21,7 @@ export class InformacionContactoPage implements OnInit {
     {
       icon: 'desktop-outline',
       informacion: 'http://clubdeestirpe.com/',
-      redirectTo: "https://estirpe.vercel.app/"
+      redirectTo: "http://clubdeestirpe.com/"
     },
     {
       icon: 'location-outline',
