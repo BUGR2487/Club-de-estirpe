@@ -18,7 +18,7 @@ export class EmprendimientoPage implements OnInit {
     },
     {
       img: '/assets/slides-images/emprendimiento_equipo.svg',
-      titulo: 'Los ayudamos a entender el contexto empresarial para reducir la curva de aprendizaje y darles mayores posibilidades de exito a su proyecto.'
+      titulo: 'Los ayudamos a entender el contexto empresarial para reducir la curva de aprendizaje y darles mayores posibilidades de éxito a su proyecto.'
     },
     {
       img: '/assets/slides-images/emprendimiento_empresa.svg',

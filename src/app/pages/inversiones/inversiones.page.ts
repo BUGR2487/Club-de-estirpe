@@ -10,7 +10,7 @@ export class InversionesPage implements OnInit {
   slides_textos_inversiones: { img: string, texto: string }[] = [
     {
       img: '/assets/slides-images/inversiones_invertir.svg',
-      texto: 'Invierte pequeñas cantidades en negocios tradicionales, no sin antes conocer al emprendedor, su idea de negocio y sus cualidades para llevar a cabo el proyecto.'
+      texto: 'Invierte pequeñas cantidades en negocios tradicionales, no sin antes conocer al emprendedor, su idea de negocio y sus cualidades para llevar acabo el proyecto.'
     },
     {
       img: '/assets/slides-images/inversiones_experiencia.svg',
