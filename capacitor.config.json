@@ -1,5 +1,5 @@
 {
-  "appId": "io.ionic.starter",
+  "appId": "com.clubdeestirpe.clubdeestirpeappdev",
   "appName": "Club de Estirpe",
   "bundledWebRuntime": false,
   "npmClient": "npm",
@@ -14,10 +14,10 @@
       "ScrollEnabled": "false",
       "BackupWebStorage": "none",
       "SplashMaintainAspectRatio": "true",
-      "FadeSplashScreenDuration": "300",
+      "FadeSplashScreenDuration": "0",
       "SplashShowOnlyFirstTime": "false",
-      "SplashScreen": "screen",
-      "SplashScreenDelay": "3000"
+      "SplashScreen": "none",
+      "SplashScreenDelay": "0"
     }
   }
 }
